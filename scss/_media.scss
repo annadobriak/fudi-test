@@ -1,0 +1,156 @@
+@media (max-width: 1199px) {
+    .advantages {
+        &__inner {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+    }
+    .fudi-app {
+        &__image {
+            display: none;
+        } 
+        &__content {
+            max-width: 100%;
+        } 
+        &__content-title {
+            padding-top: 55px;
+        }
+        &__content-link {
+            margin-bottom: 55px;
+        }  
+    }
+}
+@media (max-width: 768px) {
+    .counter {
+        &__items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+        }
+        &__item {
+            max-width: 350px;
+            width: 100%;
+            padding: 15px 15px;
+        }
+    }
+    .footer {
+        &__copyright {
+            font-size: 12px;
+
+        }
+        &__author {
+            letter-spacing: 1px;
+        }
+    }
+}
+
+@media (max-width: 650px) {
+
+    .header {
+        &__top {
+            display: flex;
+            flex-direction: column-reverse;
+            align-content: center;
+            margin-bottom: 120px;
+        }
+        &__btn {
+            height: 80px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+        &__title {
+            font-size: 90px;
+            line-height: 50px;
+        }
+    }
+    .login-form,
+    .signup-form {
+        top: 120px;
+    }
+}
+
+@media (max-width: 500px) {
+    .header {
+        &__subtitle {
+            font-size: 30px;
+            line-height: 30px;
+        }
+        &__title {
+            font-size: 75px;
+            line-height: 40px;
+        }
+        &__title-btn {
+            padding: 18px 73px 24px;
+            margin-bottom: 25px;
+        }
+        &__text {
+            font-size: 12px;
+            line-height: 30px;
+        }
+    }
+    .footer {
+        text-align: center;
+        &__copyright {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            align-content: center;
+        }
+        &__year {
+            width: 100%;
+        }
+        &__author {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+    }
+}
+
+@media (max-width: 420px) {
+    .header {
+    margin-bottom: 65px;
+        &__subtitle {
+            font-size: 26px;
+            line-height: 30px;
+        }
+        &__title {
+            font-size: 60px;
+            line-height: 15px;
+        }
+        &__title-btn {
+            padding: 16px 44px 16px;
+            margin-bottom: 15px;
+        }
+        &__text {
+            font-size: 10px;
+            line-height: 15px;
+        }
+    }    
+    .advantages {
+        &__item {
+            max-width: 290px;
+            margin-bottom: 60px;
+        }
+        &__item-title {
+            &::before {
+                left: 90px;
+            }    
+        }
+    }
+    .fudi-app {
+        &__content-text {
+            padding-bottom: 16px;
+        }
+    }
+    .slider {
+        &__review {
+            font-size: 22px;
+        }
+    }
+
+}

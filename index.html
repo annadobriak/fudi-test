@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Fudi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container">
+
+      <div class="header__top">        
+        <a class="logo" href="#" >
+          <img src="images/logo.png" alt="logo" >            
+        </a>             
+        <div class="header__btn">
+          <div class="header__inner">
+            <button class="header__btn-login">
+              LOG IN 
+            </button>
+  <!--start forma login-->
+            <div class="login-form login-form--close">
+              <button class="login-form__close">
+                <img src="images/close.svg" alt="close">
+              </button>
+              <a class="login-form__logo" href="#">
+                <img src="images/logo.png" alt="logo" >
+              </a>
+              <h4 class="login-form__title">LOG-IN</h4>
+              <form class="form">
+                <input class="form__email" type="text" placeholder="Username or email" required>
+                <input class="form__password" type="text" placeholder="password" required>
+                <button class="form__btn">Log in</button>
+              </form>
+              <p class="login-form__text">
+                Don't have an account?
+                <a class="login-form__link" href="#"> Sign Up</a>
+              </p>
+            </div>
+  <!--end forma login-->  
+            <button class="header__btn-signup">
+              SIGN UP
+            </button>
+  <!--start forma sign Up-->
+            <div class="signup-form signup-form--close">
+              <button class="signup-form__close">
+                <img src="images/close.svg" alt="close">
+              </button>
+              <a class="signup-form__logo" href="#">
+                <img src="images/logo.png" alt="logo" >
+              </a>
+              <h4 class="signup-form__title">SIGN-UP</h4>
+              <form class="form">
+                <input class="form__username" type="text" placeholder="Username" required>
+                <input class="form__email" type="text" placeholder="Email" required>
+                <input class="form__password" type="text" placeholder="password" required>
+                <button class="form__btn">Sign Up</button>
+              </form>
+              <p class="signup-form__text">
+                If you already have an account
+                <a class="signup-form__link" href="#"> Log In</a>
+              </p>
+            </div>
+          </div>
+  <!--end forma sign Up-->  
+          <div class="header__inner">
+            <button class="header__btn-menu">
+              <img src="images/icon-menu.png" alt="icon menu">
+            </button>
+  <!-- start nav-menu-->
+            <nav class="menu__body menu__body--close">
+              <button class="menu__close">
+                <img src="images/close.svg" alt="close">
+              </button>
+              <ul class="menu__list">
+                <li><a class="menu__list-link" href="#">navigation on the site</a></li>
+                <li><a class="menu__list-link" href="#">navigation on the site</a></li>
+                <li><a class="menu__list-link" href="#">navigation on the site</a></li>
+                <li><a class="menu__list-link" href="#">navigation on the site</a></li>
+                <li><a class="menu__list-link" href="#">navigation on the site</a></li>
+              </ul>
+            </nav>
+          </div>
+  <!-- end nav-menu -->
+
+        </div>
+      </div>
+      <div class="header__content">
+        <h3 class="header__subtitle">
+          Find your Favorite
+        </h3>
+        <h1 class="header__title">
+          RECIPES
+        </h1>
+        <button class="header__title-btn">
+          GET STARTED
+        </button>
+        <p class="header__text">
+          OR SEND US YOUR OWN RECIPES AND <span>GET REWARDED!</span> 
+        </p>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages__inner">
+
+          <div class="advantages__item">
+            <h4 class="advantages__item-title advantages__item-title--inspir">
+              GET INSPIRED
+            </h4>
+            <div class="advantages__item-text">
+              Lorem ipsum dolor sit amet, consectetur adipisc 
+              Pellentesque vel enim a elit viverra elementuma.
+              Aliquam erat volutpat. 
+            </div>
+          </div>
+
+          <div class="advantages__item">
+            <h4 class="advantages__item-title advantages__item-title--reward">
+              GET REWARDED
+            </h4>
+            <div class="advantages__item-text">
+              Lorem ipsum dolor sit amet, consectetur adipisc 
+              Pellentesque vel enim a elit viverra elementuma.
+              Aliquam erat volutpat. 
+            </div>
+          </div>
+
+          <div class="advantages__item">
+            <h4 class="advantages__item-title advantages__item-title--social">
+              GET SOCIAL
+            </h4>
+            <div class="advantages__item-text">
+              Lorem ipsum dolor sit amet, consectetur adipisc 
+              Pellentesque vel enim a elit viverra elementuma.
+              Aliquam erat volutpat. 
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="fudi-app">
+      <div class="container">
+        <div class="fudi-app__inner">
+          <div class="fudi-app__image">
+            <img class="fudi-app__image-phone" src="images/phone-app.png"  alt="phone">
+          </div>
+          <div class="fudi-app__content">
+            <h4 class="fudi-app__content-title">
+              INTRODUCING THE FUDI APP
+            </h4>
+            <p class="fudi-app__content-text">
+              Morbi eget posuere dolor. Pellentesque cursus aliquet aliquet. Aeneanet 
+              felis sit amet diam mollis ullamcorper. Nullam consequat sem a ante vest
+              ibulum tristique. Suspendisse tristique lacus ac mattis porta. 
+            </p>
+            <p class="fudi-app__content-text">
+              Vivamus ligula quam, vehicula non lacinia sed, faucibus sit amet libero. In 
+              libero dui, eleifend eu nisi id, egestas fringilla odio. In varius quam a mas
+              sa hendrerit ullamcorper a eu justo. Suspendisse porta mattis convallis. 
+              Aenean tempus ligula ac odio rhoncus, quis aliquam dolor accumsan. 
+             </p>
+            <p class="fudi-app__content-text">
+              Suspendisse aliquet felis consectetur libero congue, sed pulvinar diam 
+              malesuada. Duis vehicula a nibh id hendrerit. Donec sit amet ultrices 
+              ante, a mattis massa.
+            </p>
+            <a class="fudi-app__content-link" href="#">
+              <img src="images/app-store.jpg" alt="app store" >
+            </a>
+            <a class="fudi-app__content-link" href="#">
+              <img src="images/google-play.jpg" alt="google play" >
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slider">
+      <div class="container">
+        <div class="slider__inner">
+          <div class="slider__item">
+            <div class="slider__photo">
+              <img class="slider__photo-image"src="images/slider-photo.png" alt="photo">
+            </div>
+            <p class="slider__review">
+              “I am so happy because I found this recipe, and it just made my life easier.
+              Thanks  so much for sharing!”
+            </p>
+            <p class="slider__user-name">
+              - Michael Dawson, San Francisco, CA -
+            </p>      
+          </div>
+          <div class="slider__item">
+            <div class="slider__photo">
+              <img class="slider__photo-image"src="images/slider-photo.png" alt="photo">
+            </div>
+            <p class="slider__review">
+              “I am so happy because I found this recipe, and it just made my life easier.
+              Thanks  so much for sharing!”
+            </p>
+            <p class="slider__user-name">
+              - Michael Dawson, San Francisco, CA -
+            </p>      
+          </div>
+          <div class="slider__item">
+            <div class="slider__photo">
+              <img class="slider__photo-image"src="images/slider-photo.png" alt="photo">
+            </div>
+            <p class="slider__review">
+              “I am so happy because I found this recipe, and it just made my life easier.
+              Thanks  so much for sharing!”
+            </p>
+            <p class="slider__user-name">
+              - Michael Dawson, San Francisco, CA -
+            </p>      
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cuisines">
+      <h4 class="cuisines__title">
+        BROWSE BY CUISINES
+      </h4>
+      <div  id="div1" class="cuisines__images">
+        <img src="image" alt="">
+        <img src="image" alt="">
+        <img src="image" alt="">
+        <img src="image" alt="">
+        <img src="image" alt="">
+        <img src="image" alt="">
+        <img src="image" alt="">
+        <img src="image" alt="">
+        <img src="image" alt="">
+        <img src="image" alt="">           
+      </div>
+    </section>
+    <section class="counter">
+      <div class="container">
+
+        <div class="counter__items">
+
+          <div class="counter__item">
+            <div class="counter__item-number" data-num="10">0</div>
+            <p class="counter__item-text">Recipes Available</p>
+          </div>
+          <div class="counter__item">
+            <div class="counter__item-number" data-num="450">0</div>
+            <p class="counter__item-text">Active Users</p>
+          </div>
+          <div class="counter__item">
+            <div class="counter__item-number" data-num="5">0</div>
+            <p class="counter__item-text">Positive Reviews </p>
+          </div>
+          <div class="counter__item">
+            <div class="counter__item-number" data-num="11">0</div>
+            <p class="counter__item-text">Photos & Videos</p>
+          </div>
+          <div class="counter__item">
+            <div class="counter__item-number" data-num="31">0</div>
+            <p class="counter__item-text">Spices and Herbs </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__copyright">
+        <p class="footer__year">
+          ©2014 Fudi. All Rights Reserved.
+        </p>
+        <div class="footer__author">
+          DESIGN BY: <span>WWW.BEKADES.COM</span> 
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
